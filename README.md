@@ -1,5 +1,3 @@
-This `README.md` file is tailored to include the mention of the **Summary PDF** and **Raw Data** files, making it a complete and professional overview of your analysis.
-
 ---
 
 #  churn-analysis-eda
