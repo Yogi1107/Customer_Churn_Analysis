@@ -1,18 +1,24 @@
+This `README.md` file is tailored to include the mention of the **Summary PDF** and **Raw Data** files, making it a complete and professional overview of your analysis.
+
+---
+
 #  churn-analysis-eda
 
-## Executive Summary
+## 📊 Executive Summary
 
 This repository contains the Exploratory Data Analysis (EDA) of customer data aimed at identifying key factors and patterns driving **customer churn**. The analysis found that **26.54%** of the customer base is churning.
 
 The primary risk factors for attrition are concentrated in **new and shorter-term customers**, **senior citizens**, and those on **flexible contracts** utilizing specific payment methods.
 
+*(For a high-level overview of the final results, please refer to the **Summary PDF** included in this repository.)*
+
 ---
 
-## Key Findings and Churn Drivers
+## 📈 Key Findings and Churn Drivers
 
 ### 1. Contract Type is the Most Significant Driver
 
-The **Month-to-month contract** is the single largest indicator of churn. This suggests that the lack of commitment and flexibility offered by monthly billing strongly contributes to customer attrition.
+The **Month-to-month contract** is the primary churn driver. The count of churned customers on this contract type is substantially higher than for others.
 
 ### 2. Tenure and Early Churn
 
@@ -41,25 +47,25 @@ The **Electronic check** payment method accounts for the largest number of churn
 
 ---
 
-## Strategic Recommendations
+## 🛠️ Strategic Recommendations
 
 Based on these data-driven insights, the following areas should be prioritized for churn mitigation:
 
 1.  **Incentivize Longer Contracts:** Develop targeted campaigns to migrate **Month-to-month** customers to **One-year or Two-year contracts**.
-2.  **Enhance Early Retention:** Implement specialized customer support and retention programs for customers in their **first year of service** to push them past the highest-risk period.
-3.  **Improve Service Adoption:** Aggressively promote the value of high-retention services, particularly **Online Security** and **Tech Support**, to encourage broader adoption.
+2.  **Enhance Early Retention:** Focus retention efforts and special offers on customers in their **first year of service** to push them past the highest-risk period.
+3.  **Improve Service Adoption:** Aggressively promote the value of high-retention services, particularly **Online Security** and **Tech Support**, to encourage broader adoption across the customer base.
 4.  **Optimize Payment Methods:** Analyze and address any issues with the **Electronic check** payment process, and implement campaigns to encourage migration to automatic, reliable payment options (Credit card or Bank transfer).
 5.  **Target Senior Citizens:** Develop specific outreach or specialized support for this demographic to address their disproportionately high churn rate.
 
 ---
 
-## Repository Contents
+## 💻 Repository Contents
 
-File	Description
-EDA_Customer_churn.ipynb	The core Jupyter Notebook containing the full data loading, cleaning, exploratory data analysis (EDA), visualizations, and initial conclusions.
-Telco-Customer-Churn.csv	The raw data file used for the entire analysis.
-Summary.pdf	A presentation or detailed summary document of the key findings (PDF format).
-README.md	This file, providing a summary of the project and key findings
-| `Telco-Customer-Churn.csv` | *(Assumed)* The raw dataset used for the analysis. |
+| File | Description |
+| :--- | :--- |
+| `EDA_Customer_churn.ipynb` | The core Jupyter Notebook containing the full data loading, cleaning, exploratory data analysis (EDA), visualizations, and initial conclusions. |
+| **`Telco-Customer-Churn.csv`** | **The raw data file used for the entire analysis.** |
+| **`Summary.pdf`** | **A presentation or detailed summary document of the key findings (PDF format).** |
+| `README.md` | This file, providing a summary of the project and key findings. |
 
 ---
